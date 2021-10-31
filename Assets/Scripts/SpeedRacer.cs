@@ -24,7 +24,6 @@ public class SpeedRacer : MonoBehaviour
     public Text CarType_txt;
     public Text CarFuelLevel_txt;
 
-
     public class Fuel
     {
         public int fuelLevel;
@@ -37,7 +36,7 @@ public class SpeedRacer : MonoBehaviour
 
     public Fuel carFuel = new Fuel(110);
 
-    // Called when the script instance is being loaded.
+    // Called when the script instance is being load.
     void Awake()
     {
         CarIntro_txt = GameObject.Find("Canvas/CarIntro_txt").GetComponent<Text>();
